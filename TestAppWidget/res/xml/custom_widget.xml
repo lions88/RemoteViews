@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appwidget-provider 
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	android:minWidth="280dp"
+	android:minHeight="280dp"
+	android:initialLayout="@layout/widget_layout"
+	android:updatePeriodMillis="0"> 
+	<!-- sdk1.5之后updatePeriodMillis已失效，置为0，循环执行自行在代码中实现 -->
+</appwidget-provider>

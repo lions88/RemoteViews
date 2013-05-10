@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    
+    <ListView 
+        android:id="@+id/widget_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:divider="@drawable/widget_list_divider"
+        android:listSelector="@drawable/list_bg_selector" 
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft = "5dp"
+        android:cacheColorHint="#00000000"/> 
+    
+</FrameLayout>
